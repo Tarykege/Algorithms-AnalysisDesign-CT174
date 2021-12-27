@@ -25,6 +25,7 @@ Bắt chước cách sắp xếp quân bài của những người chơi bài
 ```
 
 ## day 1.2 (27/12/2021): SELECTION SORT
+<img src="https://nguyenvanhieu.vn/wp-content/uploads/2018/07/thuat-toan-selection-sort.gif"/>
 
 ### Ý tưởng
 ```
