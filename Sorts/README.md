@@ -15,8 +15,10 @@ Bắt chước cách sắp xếp quân bài của những người chơi bài
 - Sau vòng lặp thứ i thì dãy [0,i] đã được sắp xếp.  
 ```
 ### Độ phức tạp
+```
 Độ phức tạp về thời gian: O(n*2)
 Không gian phụ trợ: O(1)
+```
 
 ## day 1.2 (27/12/2021): SELECTION SORT
 
@@ -30,5 +32,7 @@ Không gian phụ trợ: O(1)
  
 ```
 ### Độ phức tạp
+```
 Độ phức tạp về thời gian: O()
 Không gian phụ trợ: O()
+```
