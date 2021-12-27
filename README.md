@@ -4,5 +4,3 @@
 
 - [X] 1. Insert sort
 - [X] 2. Selection sort
-
-## [Greedy]()
