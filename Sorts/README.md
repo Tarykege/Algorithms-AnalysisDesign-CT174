@@ -1,7 +1,7 @@
 # Sorts
 
 ## day 1 (27/12/2021): INSERT SORT
-<img src="https://www.doabledanny.com/static/92b034385c440e08bc8551c97df0a2e3/2.gif"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif"/>
 ### Ý tưởng
 ```
 Bắt chước cách sắp xếp quân bài của những người chơi bài
