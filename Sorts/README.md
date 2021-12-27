@@ -2,6 +2,7 @@
 
 ## day 1 (27/12/2021): INSERT SORT
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif"/>
+
 ### Ý tưởng
 ```
 Bắt chước cách sắp xếp quân bài của những người chơi bài
