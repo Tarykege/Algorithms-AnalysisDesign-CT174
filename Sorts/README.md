@@ -1,7 +1,7 @@
 # Sorts
 
 ## day 1 (27/12/2021): INSERT SORT
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Insertion-sort-example.gif" width="500px" height="300px"/>
 
 ### Ý tưởng
 ```
@@ -25,7 +25,7 @@ Bắt chước cách sắp xếp quân bài của những người chơi bài
 ```
 
 ## day 1.2 (27/12/2021): SELECTION SORT
-<img src="https://nguyenvanhieu.vn/wp-content/uploads/2018/07/thuat-toan-selection-sort.gif"/>
+<img src="https://nguyenvanhieu.vn/wp-content/uploads/2018/07/thuat-toan-selection-sort.gif" width="500px" height="300px"/>
 
 ### Ý tưởng
 ```
