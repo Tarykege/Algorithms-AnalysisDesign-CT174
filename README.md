@@ -2,7 +2,7 @@
 
 ## [Sort](https://github.com/Tarykege/Algorithms-AnalysisDesign-CT174/tree/main/Sorts)
 
-1. [X] Insert sort
-2. [X] Selection sort
+- [X] 1. Insert sort
+- [X] 2. Selection sort
 
 ## [Greedy]()
