@@ -48,7 +48,7 @@ Bắt chước cách sắp xếp quân bài của những người chơi bài
 ```
 
 ## day 2 (28/12/2021): BUBBLE SORT
-<img src="https://www.programmingsimplified.com/images/c/bubble-sort.gif" width="500px" height="300px"/>
+<img src="https://www.programmingsimplified.com/images/c/bubble-sort.gif" width="600px" height="300px"/>
 
 ### Ý tưởng
 ```
