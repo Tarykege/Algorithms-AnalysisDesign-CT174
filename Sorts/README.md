@@ -46,3 +46,26 @@ Bắt chước cách sắp xếp quân bài của những người chơi bài
 	Trường hợp xấu: O(n^2)
 - Không gian phụ trợ: O(1)
 ```
+
+## day 2 (28/12/2021): BUBBLE SORT
+<img src="https://www.programmingsimplified.com/images/c/bubble-sort.gif" width="500px" height="300px"/>
+
+### Ý tưởng
+```
+Giá trị lớn nhất sẽ bị đẩy lên cuối mảng
+```
+
+### Nguyên lý
+```
+- Chạy từ đầu đến cuối mảng
+- Nếu phần tử đứng trước lớn hơn phần tử đứng sau thì đổi chỗ
+- Sau mỗi vòng lặp thì phần tử lớn nhất sẽ trôi xuống dưới và vòng lặp thứ n-i-1 sẽ không xét nữa
+```
+### Độ phức tạp
+```
+- Độ phức tạp về thời gian:
+	Trường hợp tốt: O(n)
+	Trung bình: O(n^2)
+	Trường hợp xấu: O(n^2)
+- Không gian phụ trợ: O(1)
+```

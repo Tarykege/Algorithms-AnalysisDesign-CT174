@@ -5,7 +5,8 @@ void insert_sort(int a[], int n){
 	for(int i=1; i<n; i++){
 		key=a[i];
 		j=i-1;
-		// xet gia tri phia truoc cua key co lon hon key khong, neu co thi lui, den khi gap gia tri nho hon vao gan gia tri vao phia sau
+		// xet gia tri phia truoc cua key co lon hon key khong, 
+		// neu co thi lui, den khi gap gia tri nho hon vao gan gia tri vao phia sau
 		while(a[j]>key && j>=0){
 			a[j+1]=a[j];
 			j--;
