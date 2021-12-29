@@ -86,7 +86,9 @@ B1: chọn pivot, nó chọn một phần tử trong mảng làm điểm đánh 
 	- Luôn chọn phần tử cuối cùng của mảng
 	- Chọn một phần tử random
 	- Chọn một phần tử có giá trị nằm giữa mảng(median element)
+	
 B2: phân bố lại mảng theo pivot
+
 B3: Chia ra
 ```
 ### Độ phức tạp
