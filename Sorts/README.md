@@ -74,16 +74,18 @@ Giá trị lớn nhất sẽ bị đẩy lên cuối mảng
 
 ### Ý tưởng
 ```
-Là một thuật toán hiệu quả dựa trên việc phân chia mảng dữ liệu thành các nhóm phần tử nhỏ hơn
-```
-
-### Nguyên lý
-```
 Thuật toán sắp xếp quick sort là một thuật toán chia để trị( Divide and Conquer algorithm). Nó chọn một phần tử trong mảng làm điểm đánh dấu(pivot). Thuật toán sẽ thực hiện chia mảng thành các mảng con dựa vào pivot đã chọn. Việc lựa chọn pivot ảnh hưởng rất nhiều tới tốc độ sắp xếp. Nhưng máy tính lại không thể biết khi nào thì nên chọn theo cách nào. Dưới đây là một số cách để chọn pivot thường được sử dụng:
 Luôn chọn phần tử đầu tiên của mảng
 Luôn chọn phần tử cuối cùng của mảng
 Chọn một phần tử random
 Chọn một phần tử có giá trị nằm giữa mảng(median element)
+```
+
+### Nguyên lý
+```
+B1: chọn pivot
+B2: phân bố lại mảng theo pivot
+B3: Chia ra
 ```
 ### Độ phức tạp
 ```
