@@ -99,3 +99,41 @@ B3: Chia ra
 	Trường hợp xấu: O(n^2)
 - Không gian phụ trợ: O(log(n))
 ```
+
+## day 4 (30/12/2021): MERGE SORT
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif" width="500px" height="300px"/>
+
+### Ý tưởng
+```
+một trong những thuật toán có độ phức tạp ở mức trung bình và cùng sử dùng phương pháp chia để trị giống thuật toán sắp xếp nhanh quick sort
+```
+
+### Nguyên lý
+```
+void merge(int arr[], int l, int m, int r)
+	1. Tìm kích thước của 2 mảng con để merged
+	2. Tạo mảng tạm cho 2 mảng con
+	3. Copy dữ liệu vào mảng tạm
+	4. Merge các mảng tạm lại
+		TH1: cả 2 mảng đều khác rỗng
+		TH2: mảng 1 hoặc mảng 2 rỗng
+ 
+merge_sort(arr[], l,  r)
+if l<r
+     1. Tìm chỉ số nằm giữa mảng để chia mảng thành 2 nửa:
+             middle m = (l+r)/2
+     2. Gọi đệ quy hàm mergeSort cho nửa đầu tiên:  
+             mergeSort(arr, l, m)
+     3. Gọi đệ quy hàm mergeSort cho nửa thứ hai:
+             mergeSort(arr, m+1, r)
+     4. Gộp 2 nửa mảng đã sắp xếp ở (2) và (3):
+             merge(arr, 1, m, r)
+```
+### Độ phức tạp
+```
+- Độ phức tạp về thời gian:
+	Trường hợp tốt: O(nlog(n))
+	Trung bình: O(nlog(n))
+	Trường hợp xấu: O(nlog(n))
+- Không gian phụ trợ: O(n);
+```
