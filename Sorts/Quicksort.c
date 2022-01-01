@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 // return pivot value
 int partition(int a[], int l, int r, int key){
 	int iL = l;
