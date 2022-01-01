@@ -137,3 +137,21 @@ if l<r
 	Trường hợp xấu: O(nlog(n))
 - Không gian phụ trợ: O(n);
 ```
+
+## day 5 (1/1/2022): HEAP SORT
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Heapsort-example.gif" width="500px" height="300px"/>
+
+### Ý tưởng
+```
+...
+```
+
+### Nguyên lý
+```
+...
+```
+### Độ phức tạp
+```
+- Độ phức tạp về thời gian:
+	Trường hợp xấu: O(nLogn) 
+```
