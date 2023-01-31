@@ -13,20 +13,20 @@ void swap(recordtype *x, recordtype *y){
 };
 void pushDown(recordtype a[], int first, int last){
 	int r=first;
-	while(r<=(last-1)/2){ // node can xet <= last parent node
-		if(last==2*r+1){ // last node == node trai
-			if(a[r].key > a[last].key) swap(&a[r],&a[last]); // neu node parent > last node thi swap
+	while(r<=(last-1)/2){
+		if(last==2*r+1){
+			if(a[r].key > a[last].key) swap(&a[r],&a[last]);
 			r=last;
 		}
-		else if(a[r].key>a[r*2+1].key && (a[r*2+1].key<=a[r*2+2].key)){ // if node parent > left node and left node <= right node then swap r & l n
+		else if(a[r].key>a[r*2+1].key && (a[r*2+1].key<=a[r*2+2].key)){
 			swap(&a[r],&a[r*2+1]);
 			r=r*2+1;
 		}
-		else if(a[r].key>a[r*2+2].key && (a[r*2+2].key < a[r*2+1].key)){ // if node parent > right node and right node < left node then swap r & r n
+		else if(a[r].key>a[r*2+2].key && (a[r*2+2].key < a[r*2+1].key)){
 			swap(&a[r],&a[r*2+2]);
 			r=r*2+2;
 		}
-		else r=last; // if node parent < right node and left node
+		else r=last;
 	}
 }
 void heapSort(recordtype a[], int n){
